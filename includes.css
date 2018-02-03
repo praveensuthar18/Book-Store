@@ -1,87 +1,20 @@
-
-body {
-	padding-top: 50px;
-	background: #eeeeee;
-	color: #222222;
-}
-
 .navbar {
-	background-color:#021C1E;
-	background-image: none;
-	background-repeat: no-repeat;
+	overflow: hidden;
+	background-color: #333;
+	font-family: Arial;
 }
-
-.label {
-	color: black;
-}
-
-p.error {
-	color: red;
-	font-size: 105%;
-	font-weight: bold;
+.navbar a {
+	float: left;
+	font-size: 16px;
+	color: white;
 	text-align: center;
-}
-
-#center {
-	margin-top: auto;
-	margin-bottom: auto;
-	text-align: center;
-	width: 500px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#container1 {
-	margin-left: 200px;
-	margin-top: -20px;
-	padding-top: 40px;
-	padding-left: 20px;
-}
-
-.nav-pills > li > a {
-	background-color: #333333;
-	color: #dddddd;
-}
-
-.nav-pills > li > a:hover {
-	background-color: #222222;
-	color: #ffffff;
-}
-
-#sidebar-wrapper {
-	width: 200px;
-	background: #000000;
-	position: fixed;
-	height: 100%;
-}
-
-.sidebar-nav {
-	position: absolute;
-	top: 0;
-	width: 200px;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-.sidebar-nav > li > a {
-	color: #999999;
-	display: block;
-	text-decoration: none;
-	line-height: 50px;
-	padding-left: 50px;
-}
-
-.sidebar-nav > li > a:hover, .sidebar-nav > li.active {
-	color: #ffffff;
-	background: rgba(255,255,255,0.5);
+	padding: 14px 16px;
 	text-decoration: none;
 }
-
-#footer {
-	clear: both;
-	margin-top: 400px;
-	margin-bottom: 50px;
-	height: 19px;
-	text-align: center;
+.logo{
+	height: 20px;
+	width: 20px;
+}
+.options{
+	float: right;
 }
