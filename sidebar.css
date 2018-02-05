@@ -1,16 +1,16 @@
 .sidebar1 {
     background: #F17153;
     background: -webkit-linear-gradient(#F17153, #F58D63, #f1ab53);
-    
+
     padding: 0px;
-    
+
     -ms-flex: 0 100px;
     -webkit-box-flex:  0;
     -moz-box-flex:  0;
     -ms-box-flex:  0;
-    box-flex:  0;  
+    box-flex:  0;
 
-    
+    height: 100%;
 }
 .logo {
     max-height: 130px;

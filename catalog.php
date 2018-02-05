@@ -8,7 +8,7 @@
 </head>
 <body background="images/background2.jpg">
     <div class="navbar">
-		<a href="index.html"><img src="images/book.jpg" class="logo" alt="logo"></a>
+		<a href="index.php"><img src="images/book.jpg" class="logo" alt="logo"></a>
 		<div class="options">
             <a href="cart.php">Cart</a>
 			<a href="catalog.php">Catalog</a>
@@ -18,7 +18,7 @@
     <div align="center">
         <font size=5 face="arial">
             <h1>Our Catalog</h1>
-            <table align="center" cellspacing="30" cellpadding="5">
+            <table align="center">
 				<tr>
 					<td>
 						<img src="images/book.jpg" height="100" width="75"><br>

@@ -8,7 +8,7 @@
 </head>
 <body background="images/background2.jpg">
 	<div class="navbar">
-		<a href="index.html"><img src="images/book.jpg" class="logo" alt="logo"></a>
+		<a href="index.php"><img src="images/book.jpg" class="logo" alt="logo"></a>
 		<div class="options">
 			<a href="cart.php">Cart</a>
 			<a href="catalog.php">Catalog</a>
@@ -25,7 +25,7 @@
 			<br><br>
 			<button onclick="location.href='catalog.php'"><font size=4>View Catalog</font></button>
 			<h1>Your Purchase History</h1>
-			<table align="center" cellspacing="30" cellpadding="5">
+			<table align="center">
 				<tr>
 					<th>Book</th>
 					<th>Name</th>

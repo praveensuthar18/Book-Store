@@ -1,20 +1,54 @@
+body{
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
 .navbar {
 	overflow: hidden;
-	background-color: #333;
+	background-color: rgba(200, 200, 200, 0.5);
 	font-family: Arial;
 }
 .navbar a {
 	float: left;
 	font-size: 16px;
-	color: white;
+	color: black;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 }
+.navbar a:hover{
+	background-color: rgba(200, 200, 200, 0.8);
+}
 .logo{
-	height: 20px;
+	height: 15px;
 	width: 20px;
 }
 .options{
 	float: right;
+}
+th, td{
+	background-color: rgba(255,255,255,0.25);
+	border: 1px solid white;
+	padding: 5px;
+}
+button{
+	background-color: rgba(166, 166, 166, 0.5);
+	border: none;
+	color: black;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+button:hover{
+	background-color: rgba(166, 166, 166, 0.8);
+}
+.table-button{
+	background-color: rgba(0,0,0,0);
+	border: none;
 }

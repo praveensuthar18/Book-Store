@@ -3,13 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cart</title>
-    <!-- <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="includes.css">
-    <link rel="stylesheet" type="text/css" href="sidebar.css">
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script> -->
+    <title>Payment</title>
 </head>
 <body background="images/background1.jpg">
     <div align="center">
